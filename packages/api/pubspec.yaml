@@ -1,0 +1,19 @@
+name: api
+description: "Weather API package with http."
+publish_to: none
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+
+dev_dependencies:
+  test: ^1.25.2
+  
+  flutter_lints: ^3.0.0
